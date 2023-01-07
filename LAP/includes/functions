@@ -1,0 +1,35 @@
+
+<?php 
+
+//====== confirmQuery FUNCTION =====//
+function confirmQuery($result) {
+    global $connection;
+       if(!$result ) {
+         
+         die("QUERY FAILED ." . mysqli_error($connection));
+         
+     }
+
+    
+    
+}
+
+//====== confirmEmail FUNCTION =====//
+
+function email_exist($email){
+    global $connection;
+        $query = "SELECT email FROM lap WHERE email = '$email'";
+        $result = mysqli_query($connection, $query);
+        confirmQuery($result);
+        
+    if(mysqli_num_rows($result) > 0) {
+        return true
+    
+    } else {
+    
+        return false;
+        
+    }
+
+}
+?>
