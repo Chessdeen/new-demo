@@ -1,12 +1,18 @@
-# New Demo
+# What is LAP Application
 
-Some text
+As a means of reaching farmers en masse,
 
-## Subheading 
+Lagos state ministry of agriculture needed a means of reaching out to the farmers for the purpose of offering them grants and loans.
 
-This is now working perfectly
+## What it does 
 
-## Local Development
+I created a platform where farmers could apply for either a grant or loan, submit their data to a database that connects them with the right financial institution for the purpose of a better harvest.
 
-1. Open index.html in your browser.
-2. Have fun
+The farmers are to pass an aptitude test after the application, so as to select the right applicants for the financial aid.
+
+## Admin Dashboard
+
+1. Create and manage examiner
+2. Examiner can set questions and select applicants who will have access to the test.
+3. Set timer for applicants to take test.
+4. Manage user data.
